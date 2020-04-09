@@ -1,0 +1,7 @@
+#lista = [1,2,3] exemplo lista
+
+def soma_elementos(lista):
+    soma = 0
+    for i in lista:         #para cada elemento da lista 
+        soma += i           # soma recebe = +1+2+3
+    return soma             #retorna resultado (soma = 6)
